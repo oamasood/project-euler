@@ -64,7 +64,6 @@ def largest_prime_factor():
             if big_number % i == 0:
                 big_number /= i
                 largest_factor = i
-                print "big_number=%s, largest_factor=%s" % (big_number, largest_factor)
                 break
 
     return largest_factor
